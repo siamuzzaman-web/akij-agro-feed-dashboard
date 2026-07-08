@@ -1,0 +1,169 @@
+{
+  "suppliers": [
+    {
+      "productId": "MAT-001",
+      "product": "MAIZE/CORN",
+      "akijSourcingCountry": "Brazil",
+      "akijQuotedPrice": 245.0,
+      "bestBuyCountry": "India",
+      "bestBuyPrice": 232.0,
+      "costGapPct": 0.056,
+      "riskSignal": "MONITOR",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-002",
+      "product": "SOYABEAN/SBM",
+      "akijSourcingCountry": "Brazil",
+      "akijQuotedPrice": 404.0,
+      "bestBuyCountry": "Argentina",
+      "bestBuyPrice": 370.0,
+      "costGapPct": 0.0919,
+      "riskSignal": "HIGH_COST",
+      "procurementAction": "Diversify Source"
+    },
+    {
+      "productId": "MAT-003",
+      "product": "ANIMAL FEED",
+      "akijSourcingCountry": "-",
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "Saudi Arabia",
+      "bestBuyPrice": 579.0,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
+    },
+    {
+      "productId": "MAT-004",
+      "product": "WHEAT BRAN",
+      "akijSourcingCountry": "Nigeria",
+      "akijQuotedPrice": 192.0,
+      "bestBuyCountry": "Nigeria",
+      "bestBuyPrice": 192.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Strong Buy"
+    },
+    {
+      "productId": "MAT-005",
+      "product": "DDGS",
+      "akijSourcingCountry": "India",
+      "akijQuotedPrice": 242.0,
+      "bestBuyCountry": "India",
+      "bestBuyPrice": 242.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-006",
+      "product": "L-METHIONINE",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 2244.0,
+      "bestBuyCountry": "China",
+      "bestBuyPrice": 2244.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-007",
+      "product": "CALCIUM PHOSPHATE",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 810.0,
+      "bestBuyCountry": "Morocco",
+      "bestBuyPrice": 684.0,
+      "costGapPct": 0.1842,
+      "riskSignal": "HIGH_COST",
+      "procurementAction": "Diversify Source"
+    },
+    {
+      "productId": "MAT-008",
+      "product": "CORN GLUTEN FEED",
+      "akijSourcingCountry": "India",
+      "akijQuotedPrice": 283.0,
+      "bestBuyCountry": "India",
+      "bestBuyPrice": 283.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-009",
+      "product": "PH RAW MATERIALS",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 1584.0,
+      "bestBuyCountry": "China",
+      "bestBuyPrice": 1584.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Hold"
+    },
+    {
+      "productId": "MAT-010",
+      "product": "L-LYSINE",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 998.0,
+      "bestBuyCountry": "India",
+      "bestBuyPrice": 670.0,
+      "costGapPct": 0.4896,
+      "riskSignal": "HIGH_COST",
+      "procurementAction": "Review Supplier"
+    },
+    {
+      "productId": "MAT-011",
+      "product": "RAPESEED EXTRACTION (RSM)",
+      "akijSourcingCountry": "India",
+      "akijQuotedPrice": 264.0,
+      "bestBuyCountry": "India",
+      "bestBuyPrice": 264.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-012",
+      "product": "L-THREONINE",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 1194.0,
+      "bestBuyCountry": "China",
+      "bestBuyPrice": 1194.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Hold"
+    },
+    {
+      "productId": "MAT-013",
+      "product": "AMINO ACID (FEED)",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 1214.0,
+      "bestBuyCountry": "China",
+      "bestBuyPrice": 1214.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Hold"
+    },
+    {
+      "productId": "MAT-014",
+      "product": "FEED ADDITIVE",
+      "akijSourcingCountry": "China",
+      "akijQuotedPrice": 651.0,
+      "bestBuyCountry": "China",
+      "bestBuyPrice": 651.0,
+      "costGapPct": 0.0,
+      "riskSignal": "OPTIMAL",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-015",
+      "product": "LIMESTONE POWDER",
+      "akijSourcingCountry": "Egypt",
+      "akijQuotedPrice": 56.0,
+      "bestBuyCountry": "Vietnam",
+      "bestBuyPrice": 43.0,
+      "costGapPct": 0.3023,
+      "riskSignal": "HIGH_COST",
+      "procurementAction": "Review Supplier"
+    }
+  ]
+}

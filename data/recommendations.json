@@ -1,0 +1,154 @@
+{
+  "recommendations": [
+    {
+      "productId": "MAT-001",
+      "product": "MAIZE/CORN",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.03240740741,
+      "forecastDeltaPct": 0.08612440191
+    },
+    {
+      "productId": "MAT-002",
+      "product": "SOYABEAN/SBM",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.04534005038,
+      "forecastDeltaPct": -0.009638554217
+    },
+    {
+      "productId": "MAT-003",
+      "product": "ANIMAL FEED",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.06292645944,
+      "forecastDeltaPct": -0.0970042796
+    },
+    {
+      "productId": "MAT-004",
+      "product": "WHEAT BRAN",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.2489082969,
+      "forecastDeltaPct": -0.1013986014
+    },
+    {
+      "productId": "MAT-005",
+      "product": "DDGS",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.03678929766,
+      "forecastDeltaPct": -0.01041666667
+    },
+    {
+      "productId": "MAT-006",
+      "product": "L-METHIONINE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.2550742199,
+      "forecastDeltaPct": 0.05002033347
+    },
+    {
+      "productId": "MAT-007",
+      "product": "CALCIUM PHOSPHATE",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.3862745098,
+      "forecastDeltaPct": -0.229844413
+    },
+    {
+      "productId": "MAT-008",
+      "product": "CORN GLUTEN FEED",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.4748201439,
+      "forecastDeltaPct": 0.6484018265
+    },
+    {
+      "productId": "MAT-009",
+      "product": "PH RAW MATERIALS",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-010",
+      "product": "L-LYSINE",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": -0.048,
+      "forecastDeltaPct": -0.06470588235
+    },
+    {
+      "productId": "MAT-011",
+      "product": "RAPESEED EXTRACTION (RSM)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.04255319149,
+      "forecastDeltaPct": -0.003703703704
+    },
+    {
+      "productId": "MAT-012",
+      "product": "L-THREONINE",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-013",
+      "product": "AMINO ACID (FEED)",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-014",
+      "product": "FEED ADDITIVE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.4489383215,
+      "forecastDeltaPct": 0.3853211009
+    },
+    {
+      "productId": "MAT-015",
+      "product": "LIMESTONE POWDER",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": -0.01612903226,
+      "forecastDeltaPct": -0.01639344262
+    }
+  ]
+}

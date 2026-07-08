@@ -1,0 +1,139 @@
+{
+  "signals": [
+    {
+      "productId": "MAT-001",
+      "product": "MAIZE/CORN",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "eye",
+      "description": "MAIZE/CORN pricing is stable; continue tracking weekly movement before next order."
+    },
+    {
+      "productId": "MAT-002",
+      "product": "SOYABEAN/SBM",
+      "signal": "HIGH_COST",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "SOYABEAN/SBM sourced from Brazil costs meaningfully more than the best available origin (Argentina)."
+    },
+    {
+      "productId": "MAT-003",
+      "product": "ANIMAL FEED",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "ANIMAL FEED has no confirmed Akij sourcing country on file; supplier base needs review."
+    },
+    {
+      "productId": "MAT-004",
+      "product": "WHEAT BRAN",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "WHEAT BRAN sourcing from Nigeria is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-005",
+      "product": "DDGS",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "DDGS sourcing from India is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-006",
+      "product": "L-METHIONINE",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "L-METHIONINE sourcing from China is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-007",
+      "product": "CALCIUM PHOSPHATE",
+      "signal": "HIGH_COST",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "CALCIUM PHOSPHATE sourced from China costs meaningfully more than the best available origin (Morocco)."
+    },
+    {
+      "productId": "MAT-008",
+      "product": "CORN GLUTEN FEED",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "CORN GLUTEN FEED sourcing from India is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-009",
+      "product": "PH RAW MATERIALS",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "PH RAW MATERIALS sourcing from China is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-010",
+      "product": "L-LYSINE",
+      "signal": "HIGH_COST",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "L-LYSINE sourced from China costs meaningfully more than the best available origin (India)."
+    },
+    {
+      "productId": "MAT-011",
+      "product": "RAPESEED EXTRACTION (RSM)",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "RAPESEED EXTRACTION (RSM) sourcing from India is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-012",
+      "product": "L-THREONINE",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "L-THREONINE sourcing from China is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-013",
+      "product": "AMINO ACID (FEED)",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "AMINO ACID (FEED) sourcing from China is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-014",
+      "product": "FEED ADDITIVE",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "FEED ADDITIVE sourcing from China is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-015",
+      "product": "LIMESTONE POWDER",
+      "signal": "HIGH_COST",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "LIMESTONE POWDER sourced from Egypt costs meaningfully more than the best available origin (Vietnam)."
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akij Agro Feed | Market Intelligence Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/vendor/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="loading-screen" id="loadingScreen">
+  <div class="loading-shell">
+    <div class="loading-sidebar">
+      <div class="skeleton" style="width:34px;height:34px;border-radius:9px;"></div>
+      <div class="skeleton" style="width:70%;height:12px;margin-top:14px;"></div>
+      <div class="skeleton" style="width:50%;height:10px;margin-top:8px;"></div>
+      <div class="skeleton" style="width:100%;height:34px;margin-top:28px;border-radius:8px;"></div>
+      <div class="skeleton" style="width:100%;height:34px;margin-top:8px;border-radius:8px;"></div>
+      <div class="skeleton" style="width:100%;height:34px;margin-top:8px;border-radius:8px;"></div>
+      <div class="skeleton" style="width:100%;height:34px;margin-top:8px;border-radius:8px;"></div>
+    </div>
+    <div class="loading-main">
+      <div class="skeleton" style="width:240px;height:16px;"></div>
+      <div class="loading-row">
+        <div class="skeleton" style="height:96px;border-radius:16px;"></div>
+        <div class="skeleton" style="height:96px;border-radius:16px;"></div>
+        <div class="skeleton" style="height:96px;border-radius:16px;"></div>
+        <div class="skeleton" style="height:96px;border-radius:16px;"></div>
+      </div>
+      <div class="loading-row cols-3">
+        <div class="skeleton" style="height:120px;border-radius:16px;"></div>
+        <div class="skeleton" style="height:120px;border-radius:16px;"></div>
+        <div class="skeleton" style="height:120px;border-radius:16px;"></div>
+      </div>
+      <div class="skeleton" style="height:280px;border-radius:16px;margin-top:6px;"></div>
+    </div>
+  </div>
+  <div class="loading-caption">
+    <span class="loading-spinner"></span> Loading Market Intelligence…
+  </div>
+</div>
+<div class="app-shell" id="appShell">
+
+  <!-- ============================ SIDEBAR ============================ -->
+  <aside class="sidebar" id="sidebar">
+    <button class="collapse-btn" id="collapseBtn" title="Collapse sidebar" aria-label="Toggle sidebar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="sidebar-brand">
+      <div class="mark">AR</div>
+      <div class="brand-text">
+        <strong>Akij Agro Feed</strong>
+        <span>MARKET INTELLIGENCE</span>
+      </div>
+    </div>
+
+    <div class="nav-section-title">Overview</div>
+    <ul class="nav-list" id="navList">
+      <li class="nav-item active" data-view="dashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+        <span class="nav-label">Dashboard</span>
+      </li>
+      <li class="nav-item" data-view="price">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg>
+        <span class="nav-label">Price Analysis</span>
+      </li>
+      <li class="nav-item" data-view="country">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18 14 14 0 010-18z"/></svg>
+        <span class="nav-label">Country Analysis</span>
+      </li>
+      <li class="nav-item" data-view="supplier">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <span class="nav-label">Supplier Analysis</span>
+      </li>
+      <li class="nav-item" data-view="dependency">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
+        <span class="nav-label">Import Dependency</span>
+      </li>
+    </ul>
+
+    <div class="nav-section-title">Intelligence</div>
+    <ul class="nav-list">
+      <li class="nav-item" data-view="signals">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M10.3 3.9L2.7 17a2 2 0 001.7 3h15.2a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>
+        <span class="nav-label">Market Signals</span>
+      </li>
+      <li class="nav-item" data-view="recommendations">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.4c.6.5 1 1.3 1 2.1v.5h6v-.5c0-.8.4-1.6 1-2.1A6 6 0 0012 3z"/></svg>
+        <span class="nav-label">Recommendations</span>
+      </li>
+      <li class="nav-item" data-view="ai">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 3v4M15 3v4M9 13h.01M15 13h.01"/></svg>
+        <span class="nav-label">AI Insights</span>
+        <span class="badge-dot"></span>
+      </li>
+    </ul>
+
+    <div class="nav-section-title">System</div>
+    <ul class="nav-list">
+      <li class="nav-item" data-view="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 00.32 1.77l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.6 1.6 0 00-1.77-.32 1.6 1.6 0 00-1 1.47V21a2 2 0 11-4 0v-.09A1.6 1.6 0 008.6 19.4a1.6 1.6 0 00-1.77.32l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.6 1.6 0 004.32 15a1.6 1.6 0 00-1.47-1H2.75a2 2 0 110-4h.09A1.6 1.6 0 004.6 8.6a1.6 1.6 0 00-.32-1.77l-.06-.06a2 2 0 112.83-2.83l.06.06A1.6 1.6 0 008.6 4.32c.14 0 .28-.02.4-.06A1.6 1.6 0 0010 2.75V2.75a2 2 0 114 0v.09c0 .68.4 1.28 1 1.55.13.04.27.06.4.06a1.6 1.6 0 001.77-.32l.06-.06a2 2 0 112.83 2.83l-.06.06A1.6 1.6 0 0019.68 8.6c0 .13.02.27.06.4.28.6.88 1 1.56 1h.09a2 2 0 110 4h-.09a1.6 1.6 0 00-1.47 1z"/></svg>
+        <span class="nav-label">Settings</span>
+      </li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <div class="avatar">DB</div>
+      <div class="sidebar-footer-text">
+        <strong>Dr. D. Bhattacharya</strong>
+        <span>Market Intelligence</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============================ MAIN COLUMN ============================ -->
+  <div class="main-col">
+
+    <!-- ---------------------------- TOP BAR ---------------------------- -->
+    <header class="topbar">
+      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <div class="topbar-title">
+        <h1 id="pageTitle">Executive Dashboard</h1>
+        <div class="subtitle"><span class="live-dot"></span><span id="lastUpdated">Loading…</span></div>
+      </div>
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="globalSearch" placeholder="Search materials, countries, HS codes…" />
+      </div>
+      <div class="topbar-actions">
+        <button class="icon-btn" id="darkModeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/></svg>
+        </button>
+        <button class="btn btn-outline btn-sm" id="exportPdfBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 15l3 3 3-3M12 18v-6"/></svg>
+          Export PDF
+        </button>
+        <button class="btn btn-primary btn-sm" id="exportExcelBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 13l3 3 3-3"/></svg>
+          Export Excel
+        </button>
+      </div>
+    </header>
+
+    <main class="page" id="pageContent">
+
+      <!-- ======================= FILTER PANEL (shared) ======================= -->
+      <section class="filter-panel" id="filterPanel">
+        <div class="filter-panel-head">
+          <div class="filter-panel-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+            <span>Filters</span>
+            <span class="filter-active-count" id="filterActiveCount">No filters applied</span>
+          </div>
+        </div>
+        <div class="filter-grid" id="filterGrid"><!-- injected by filters.js --></div>
+        <div class="chip-row" id="activeChips"></div>
+      </section>
+
+      <!-- ======================= VIEW: DASHBOARD ======================= -->
+      <section class="view active" id="view-dashboard">
+
+        <!-- ============ EXECUTIVE BRIEF — answers the 4 key questions ============ -->
+        <div class="exec-brief" id="execBrief">
+          <div class="exec-brief-head">
+            <div class="exec-brief-eyebrow">
+              <span class="live-dot"></span> Executive Brief
+            </div>
+            <span class="exec-brief-sub">What the numbers mean — refreshed instantly with every filter</span>
+          </div>
+          <div class="exec-brief-grid" id="execBriefGrid"></div>
+        </div>
+
+        <!-- ============ EXECUTIVE SUMMARY — 8 core metrics ============ -->
+        <div class="section-heading">
+          <h2>Executive Summary</h2>
+          <span class="section-sub">Market health, opportunity and risk at a glance</span>
+        </div>
+        <div class="exec-summary-panel">
+          <div class="health-score-block" id="healthScoreBlock"></div>
+          <div class="exec-summary-grid" id="execSummaryGrid"></div>
+        </div>
+
+        <div class="section-heading">
+          <h2>Executive KPIs</h2>
+          <span class="section-sub">Portfolio of 15 tracked raw materials · NBR &amp; internal procurement data</span>
+        </div>
+        <div class="kpi-grid" id="kpiGrid"></div>
+
+        <div class="chart-grid">
+          <div class="panel span-8">
+            <div class="panel-head">
+              <div class="panel-head-text">
+                <h3>Price Trend — Selected Materials</h3>
+                <span class="panel-sub">Monthly trend interpolated across tracked anchor points</span>
+              </div>
+              <div class="tab-group" id="trendTabs">
+                <button class="tab-btn active" data-range="12">12M</button>
+                <button class="tab-btn" data-range="6">6M</button>
+                <button class="tab-btn" data-range="3">3M</button>
+              </div>
+            </div>
+            <div class="chart-canvas-wrap tall"><canvas id="priceTrendChart"></canvas></div>
+          </div>
+
+          <div class="panel span-4">
+            <div class="panel-head">
+              <div class="panel-head-text"><h3>Risk Distribution</h3><span class="panel-sub">Sourcing risk signal mix</span></div>
+            </div>
+            <div class="chart-canvas-wrap"><canvas id="riskDonutChart"></canvas></div>
+          </div>
+
+          <div class="panel span-6">
+            <div class="panel-head">
+              <div class="panel-head-text"><h3>WoW Price Movement</h3><span class="panel-sub">Week-on-week % change by material</span></div>
+            </div>
+            <div class="chart-canvas-wrap"><canvas id="wowBarChart"></canvas></div>
+          </div>
+
+          <div class="panel span-6">
+            <div class="panel-head">
+              <div class="panel-head-text"><h3>Akij Sourcing vs. Best Buy</h3><span class="panel-sub">Cost gap versus best available origin (USD/MT)</span></div>
+            </div>
+            <div class="chart-canvas-wrap"><canvas id="sourcingGapChart"></canvas></div>
+          </div>
+        </div>
+
+        <div class="dual-col">
+          <div class="ai-panel">
+            <div class="ai-head">
+              <div class="ai-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 3v4M15 3v4M9 13h.01M15 13h.01"/></svg>
+              </div>
+              <div>
+                <h3>AI Executive Insights</h3>
+                <span>Generated summary of portfolio movements</span>
+              </div>
+              <div class="ai-live-badge"><span class="ai-live-dot"></span>Live</div>
+            </div>
+            <div class="ai-cards" id="aiCardsDashboard"></div>
+          </div>
+
+          <div class="panel watchlist-panel">
+            <div class="panel-head"><div class="panel-head-text"><h3>Priority Watchlist</h3><span class="panel-sub">Materials needing attention this week</span></div></div>
+            <div class="watchlist-list" id="watchlistPanel"></div>
+          </div>
+        </div>
+
+        <div class="section-heading">
+          <h2>Market Signals</h2>
+          <span class="section-sub">Go / Monitor / Risk classification per material</span>
+        </div>
+        <div class="signal-grid" id="signalGridDashboard"></div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div class="panel-head-text">
+              <h3>Detailed Analysis Table</h3>
+              <span class="panel-sub">Sortable, searchable, paginated — click any row for full detail</span>
+            </div>
+          </div>
+          <div id="mainTableToolbar"></div>
+          <div class="table-scroll">
+            <table class="data-table" id="mainDetailTable"></table>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ======================= VIEW: PRICE ANALYSIS ======================= -->
+      <section class="view" id="view-price">
+        <div class="section-heading"><h2>Price Analysis</h2><span class="section-sub">Deep-dive pricing trends, volatility and forecasts</span></div>
+        <div class="chart-grid">
+          <div class="panel span-8">
+            <div class="panel-head"><div class="panel-head-text"><h3>Multi-Material Price Trend</h3><span class="panel-sub">12-month indexed trend</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="priceAnalysisLineChart"></canvas></div>
+          </div>
+          <div class="panel span-4">
+            <div class="panel-head"><div class="panel-head-text"><h3>Volatility Ranking</h3><span class="panel-sub">|WoW %| across materials</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="volatilityChart"></canvas></div>
+          </div>
+          <div class="panel span-12">
+            <div class="panel-head"><div class="panel-head-text"><h3>Price Heatmap</h3><span class="panel-sub">% change vs. last week / month / YTD / YoY</span></div></div>
+            <div style="overflow-x:auto;"><table class="heatmap-table" id="heatmapTable"></table></div>
+          </div>
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Current vs. Forecast</h3><span class="panel-sub">Next-week forecast vs current avg price (USD/MT)</span></div></div>
+            <div class="chart-canvas-wrap"><canvas id="forecastChart"></canvas></div>
+          </div>
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Bar Comparison — Current Avg Price</h3><span class="panel-sub">USD / MT</span></div></div>
+            <div class="chart-canvas-wrap"><canvas id="priceBarChart"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: COUNTRY ANALYSIS ======================= -->
+      <section class="view" id="view-country">
+        <div class="section-heading"><h2>Country Analysis</h2><span class="section-sub">Sourcing-origin competitiveness across the portfolio</span></div>
+        <div class="chart-grid">
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Country Comparison</h3><span class="panel-sub">Number-1 cheapest-origin count by country</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="countryRankChart"></canvas></div>
+          </div>
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Avg Quoted Price by Country</h3><span class="panel-sub">USD / MT, across products quoted</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="countryAvgPriceChart"></canvas></div>
+          </div>
+          <div class="panel span-12">
+            <div class="panel-head"><div class="panel-head-text"><h3>Origin Treemap</h3><span class="panel-sub">Relative footprint by products sourced</span></div></div>
+            <div class="treemap-wrap" id="countryTreemap"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: SUPPLIER ANALYSIS ======================= -->
+      <section class="view" id="view-supplier">
+        <div class="section-heading"><h2>Supplier / Sourcing-Country Analysis</h2><span class="section-sub">Akij's current sourcing origin vs. the best available origin, per material</span></div>
+        <div class="chart-grid">
+          <div class="panel span-12">
+            <div class="panel-head"><div class="panel-head-text"><h3>Supplier Comparison</h3><span class="panel-sub">Akij quoted price vs. best buy price (USD/MT)</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="supplierComparisonChart"></canvas></div>
+          </div>
+          <div class="panel span-12">
+            <div class="panel-head"><div class="panel-head-text"><h3>Cost Gap Table</h3><span class="panel-sub">Positive = Akij pays a premium vs. best available origin</span></div></div>
+            <div class="table-scroll" style="max-height:420px;">
+              <table class="data-table" id="supplierTable"></table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: IMPORT DEPENDENCY ======================= -->
+      <section class="view" id="view-dependency">
+        <div class="section-heading"><h2>Import Dependency</h2><span class="section-sub">Origin concentration and single-country dependency risk</span></div>
+        <div class="chart-grid">
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Monthly Import Trend</h3><span class="panel-sub">Illustrative portfolio-average trend</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="importTrendChart"></canvas></div>
+          </div>
+          <div class="panel span-6">
+            <div class="panel-head"><div class="panel-head-text"><h3>Risk Matrix</h3><span class="panel-sub">Cost gap % vs. WoW volatility</span></div></div>
+            <div class="risk-matrix-wrap"><canvas id="riskMatrixChart"></canvas></div>
+          </div>
+          <div class="panel span-12">
+            <div class="panel-head"><div class="panel-head-text"><h3>Single-Country Dependency</h3><span class="panel-sub">Materials with no verified alternate origin quoted</span></div></div>
+            <div class="signal-grid" id="dependencyGrid"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: MARKET SIGNALS ======================= -->
+      <section class="view" id="view-signals">
+        <div class="section-heading"><h2>Market Signals</h2><span class="section-sub">Go / Monitor / Risk classification, full portfolio</span></div>
+        <div class="signal-grid" id="signalGridFull"></div>
+      </section>
+
+      <!-- ======================= VIEW: RECOMMENDATIONS ======================= -->
+      <section class="view" id="view-recommendations">
+        <div class="section-heading"><h2>Procurement Recommendations</h2><span class="section-sub">Suggested action per material, ranked by priority</span></div>
+        <div class="table-scroll" style="max-height:600px;">
+          <table class="data-table" id="recommendationsTable"></table>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: AI INSIGHTS ======================= -->
+      <section class="view" id="view-ai">
+        <div class="section-heading"><h2>AI Executive Insights</h2><span class="section-sub">Auto-generated narrative summary of the current portfolio</span></div>
+        <div class="ai-panel">
+          <div class="ai-head">
+            <div class="ai-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 3v4M15 3v4M9 13h.01M15 13h.01"/></svg>
+            </div>
+            <div><h3>Copilot Summary</h3><span>Refreshed with each data update</span></div>
+          </div>
+          <div class="ai-cards" id="aiCardsFull"></div>
+          <div class="ai-typing"><span></span><span></span><span></span></div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: SETTINGS ======================= -->
+      <section class="view" id="view-settings">
+        <div class="section-heading"><h2>Settings</h2><span class="section-sub">Preferences for this dashboard session</span></div>
+        <div class="panel" style="max-width:560px;">
+          <div class="panel-head"><div class="panel-head-text"><h3>Display</h3></div></div>
+          <div class="exec-summary-list">
+            <div class="exec-row"><div class="exec-text"><div class="exec-label">Theme</div><div class="exec-sub">Toggle light / dark mode from the top bar</div></div></div>
+            <div class="exec-row"><div class="exec-text"><div class="exec-label">Currency</div><div class="exec-sub">All prices displayed in USD per metric ton (USD/MT)</div></div></div>
+            <div class="exec-row"><div class="exec-text"><div class="exec-label">Data Source</div><div class="exec-sub">NBR customs &amp; internal Feed Raw Material Price Tracker, as of <span id="settingsAsOf">—</span></div></div></div>
+            <div class="exec-row"><div class="exec-text"><div class="exec-label">Analyst</div><div class="exec-sub" id="settingsAnalyst">—</div></div></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="app-footer">
+      <strong>Akij Resource Limited</strong> — Market Intelligence · Research &amp; Insights (The Hexagon) · Data as of <span id="footerDate">—</span> · Internal use only
+    </footer>
+  </div>
+</div>
+
+<!-- ============================ ROW DETAIL MODAL ============================ -->
+<div class="modal-overlay" id="rowModal">
+  <div class="modal-box" id="rowModalBox"></div>
+</div>
+
+<div class="toast-stack" id="toastStack"></div>
+
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
