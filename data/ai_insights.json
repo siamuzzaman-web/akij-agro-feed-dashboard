@@ -1,24 +1,24 @@
 {
   "insights": [
     {
-      "title": "Broad-based cost relief",
-      "text": "11 of 15 tracked materials are on a week-on-week price alert, with an average WoW change of -5.1% across the portfolio, improving near-term procurement timing."
+      "title": "Mixed price action, six items on alert",
+      "text": "6 of 15 tracked materials moved more than \u00b13% week-on-week, with the portfolio averaging -1.7% WoW; Rapeseed Extraction (RSM) and DDGS drove the largest swings in opposite directions."
     },
     {
-      "title": "Corn Gluten Feed leads the drop",
-      "text": "Corn Gluten Feed fell 47.5% week-on-week to $219/MT, the sharpest decline in the portfolio, while Calcium Phosphate rose 38.6% WoW on tightening supply."
+      "title": "Rapeseed Extraction spikes on tight supply",
+      "text": "Rapeseed Extraction (RSM) jumped 50.5% week-on-week to $406/MT, the sharpest rise in the portfolio, while DDGS fell 43.8% WoW to $162/MT, the biggest drop."
     },
     {
-      "title": "Amino acid sourcing concentration risk",
-      "text": "L-Lysine, L-Threonine, PH Raw Materials and Amino Acid (Feed) are all sourced primarily from China; Akij pays a premium versus India-origin alternatives on L-Lysine (+77.6% vs. best buy)."
+      "title": "China sourcing concentration remains high",
+      "text": "L-Methionine, Calcium Phosphate, L-Lysine, PH Raw Materials, L-Threonine, Amino Acid (Feed) and Feed Additive are all sourced primarily from China, with L-Lysine carrying a 48.96% cost premium versus India-origin alternatives."
     },
     {
-      "title": "Limestone and Calcium Phosphate flagged high cost",
-      "text": "Both materials carry a HIGH COST signal versus alternative origins (Vietnam and Morocco respectively), representing the clearest near-term diversification opportunities."
+      "title": "Five materials flagged high cost or under review",
+      "text": "Maize/Corn, Soyabean/SBM, Calcium Phosphate, L-Lysine and Limestone Powder all carry a HIGH COST signal versus alternative origins, while Animal Feed has no confirmed Akij sourcing country on file and needs supplier review."
     },
     {
-      "title": "Wheat Bran is the standout Strong Buy",
-      "text": "Wheat Bran is the only Strong Buy signal in the portfolio, sourced optimally from Nigeria at $192/MT versus a portfolio average of $849/MT."
+      "title": "Rapeseed Extraction is the standout Strong Buy",
+      "text": "Rapeseed Extraction (RSM) is the only Strong Buy signal this cycle, sourced optimally from India at $264/MT with no cost gap versus the best available origin."
     }
   ]
 }

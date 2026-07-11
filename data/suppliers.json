@@ -5,11 +5,11 @@
       "product": "MAIZE/CORN",
       "akijSourcingCountry": "Brazil",
       "akijQuotedPrice": 245.0,
-      "bestBuyCountry": "India",
-      "bestBuyPrice": 232.0,
-      "costGapPct": 0.056,
-      "riskSignal": "MONITOR",
-      "procurementAction": "Monitor"
+      "bestBuyCountry": "United States",
+      "bestBuyPrice": 199.0,
+      "costGapPct": 0.2312,
+      "riskSignal": "HIGH_COST",
+      "procurementAction": "Diversify Source"
     },
     {
       "productId": "MAT-002",
@@ -42,7 +42,7 @@
       "bestBuyPrice": 192.0,
       "costGapPct": 0.0,
       "riskSignal": "OPTIMAL",
-      "procurementAction": "Strong Buy"
+      "procurementAction": "Monitor"
     },
     {
       "productId": "MAT-005",
@@ -64,7 +64,7 @@
       "bestBuyPrice": 2244.0,
       "costGapPct": 0.0,
       "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
+      "procurementAction": "Hold"
     },
     {
       "productId": "MAT-007",
@@ -108,7 +108,7 @@
       "bestBuyPrice": 670.0,
       "costGapPct": 0.4896,
       "riskSignal": "HIGH_COST",
-      "procurementAction": "Review Supplier"
+      "procurementAction": "Diversify Source"
     },
     {
       "productId": "MAT-011",
@@ -119,7 +119,7 @@
       "bestBuyPrice": 264.0,
       "costGapPct": 0.0,
       "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
+      "procurementAction": "Strong Buy"
     },
     {
       "productId": "MAT-012",
@@ -152,7 +152,7 @@
       "bestBuyPrice": 651.0,
       "costGapPct": 0.0,
       "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
+      "procurementAction": "Hold"
     },
     {
       "productId": "MAT-015",
@@ -163,7 +163,7 @@
       "bestBuyPrice": 43.0,
       "costGapPct": 0.3023,
       "riskSignal": "HIGH_COST",
-      "procurementAction": "Review Supplier"
+      "procurementAction": "Diversify Source"
     }
   ]
 }

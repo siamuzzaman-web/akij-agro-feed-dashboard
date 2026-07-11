@@ -3,11 +3,11 @@
     {
       "productId": "MAT-001",
       "product": "MAIZE/CORN",
-      "signal": "MONITOR",
-      "label": "MONITOR",
-      "color": "warning",
-      "icon": "eye",
-      "description": "MAIZE/CORN pricing is stable; continue tracking weekly movement before next order."
+      "signal": "HIGH_COST",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "MAIZE/CORN sourced from Brazil costs meaningfully more than the best available origin (United States)."
     },
     {
       "productId": "MAT-002",
