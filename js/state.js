@@ -78,7 +78,7 @@ export function applyFilters() {
 
     if (f.search) {
       const s = f.search.toLowerCase();
-      const hay = `${p.product} ${p.hsCode} ${p.akijSourcingCountry} ${p.bestBuyCountry}`.toLowerCase();
+      const hay = `${p.product} ${p.hsCode} ${p.akijSourcingCountry} ${p.bestBuyCountry} ${p.source ?? ""}`.toLowerCase();
       if (!hay.includes(s)) return false;
     }
     return true;

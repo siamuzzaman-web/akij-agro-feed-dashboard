@@ -66,12 +66,13 @@ export function renderDependencyGrid(containerId) {
 export function renderSupplierTable(tableId) {
   const table = document.getElementById(tableId);
   const { suppliers } = AppState.raw.suppliers;
+  const productsById = Object.fromEntries(AppState.raw.products.products.map((p) => [p.id, p]));
   const ids = new Set(AppState.filtered.map((p) => p.id));
   const list = suppliers.filter((s) => ids.has(s.productId)).sort((a, b) => (b.costGapPct ?? -1) - (a.costGapPct ?? -1));
 
   table.innerHTML = `
     <thead><tr>
-      <th>Material</th><th>Akij Origin</th><th>Akij Price</th><th>Best Buy Origin</th><th>Best Buy Price</th><th>Cost Gap</th><th>Risk</th><th>Action</th>
+      <th>Material</th><th>Akij Origin</th><th>Akij Price</th><th>Best Buy Origin</th><th>Best Buy Price</th><th>Cost Gap</th><th>Risk</th><th>Action</th><th>Source</th>
     </tr></thead>
     <tbody>
       ${list.map((s) => `
@@ -84,6 +85,7 @@ export function renderSupplierTable(tableId) {
           <td class="cell-change ${s.costGapPct > 0 ? "pos" : "neg"}">${fmtPct(s.costGapPct)}</td>
           <td><span class="cell-badge ${riskLabel(s.riskSignal).tone}">${riskLabel(s.riskSignal).label}</span></td>
           <td>${s.procurementAction}</td>
+          <td>${productsById[s.productId]?.source || "-"}</td>
         </tr>`).join("")}
     </tbody>`;
 }

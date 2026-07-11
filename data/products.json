@@ -32,7 +32,8 @@
       "akijSourcingCountry": "Brazil",
       "riskSignal": "MONITOR",
       "procurementAction": "Monitor",
-      "id": "MAT-001"
+      "id": "MAT-001",
+      "source": "USDA"
     },
     {
       "hsCode": "12019090 / 15079010 / 23040000",
@@ -63,7 +64,8 @@
       "akijSourcingCountry": "Brazil",
       "riskSignal": "HIGH_COST",
       "procurementAction": "Diversify Source",
-      "id": "MAT-002"
+      "id": "MAT-002",
+      "source": "USDA"
     },
     {
       "hsCode": "23099090",
@@ -94,7 +96,8 @@
       "akijSourcingCountry": "-",
       "riskSignal": "REVIEW",
       "procurementAction": "Review Supplier",
-      "id": "MAT-003"
+      "id": "MAT-003",
+      "source": "Internal Price Tracker"
     },
     {
       "hsCode": "23023000",
@@ -125,7 +128,8 @@
       "akijSourcingCountry": "Nigeria",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Strong Buy",
-      "id": "MAT-004"
+      "id": "MAT-004",
+      "source": "NBR Import Customs Data"
     },
     {
       "hsCode": "23033000",
@@ -156,7 +160,8 @@
       "akijSourcingCountry": "India",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Monitor",
-      "id": "MAT-005"
+      "id": "MAT-005",
+      "source": "Fastmarkets"
     },
     {
       "hsCode": "29304000",
@@ -187,7 +192,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Monitor",
-      "id": "MAT-006"
+      "id": "MAT-006",
+      "source": "Supplier Quotation"
     },
     {
       "hsCode": "28352600",
@@ -218,7 +224,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "HIGH_COST",
       "procurementAction": "Diversify Source",
-      "id": "MAT-007"
+      "id": "MAT-007",
+      "source": "NBR Import Customs Data"
     },
     {
       "hsCode": "23031000",
@@ -249,7 +256,8 @@
       "akijSourcingCountry": "India",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Monitor",
-      "id": "MAT-008"
+      "id": "MAT-008",
+      "source": "Fastmarkets"
     },
     {
       "hsCode": "29224100 / 29304000",
@@ -280,7 +288,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Hold",
-      "id": "MAT-009"
+      "id": "MAT-009",
+      "source": "Internal Sourcing Team"
     },
     {
       "hsCode": "29224100",
@@ -311,7 +320,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "HIGH_COST",
       "procurementAction": "Review Supplier",
-      "id": "MAT-010"
+      "id": "MAT-010",
+      "source": "Supplier Quotation"
     },
     {
       "hsCode": "23064900",
@@ -342,7 +352,8 @@
       "akijSourcingCountry": "India",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Monitor",
-      "id": "MAT-011"
+      "id": "MAT-011",
+      "source": "Fastmarkets"
     },
     {
       "hsCode": "29225000",
@@ -373,7 +384,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Hold",
-      "id": "MAT-012"
+      "id": "MAT-012",
+      "source": "Supplier Quotation"
     },
     {
       "hsCode": "29224100 / 29225000",
@@ -404,7 +416,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Hold",
-      "id": "MAT-013"
+      "id": "MAT-013",
+      "source": "Internal Sourcing Team"
     },
     {
       "hsCode": "23231000 / 29304000",
@@ -435,7 +448,8 @@
       "akijSourcingCountry": "China",
       "riskSignal": "OPTIMAL",
       "procurementAction": "Monitor",
-      "id": "MAT-014"
+      "id": "MAT-014",
+      "source": "Internal Price Tracker"
     },
     {
       "hsCode": "25174900",
@@ -466,7 +480,8 @@
       "akijSourcingCountry": "Egypt",
       "riskSignal": "HIGH_COST",
       "procurementAction": "Review Supplier",
-      "id": "MAT-015"
+      "id": "MAT-015",
+      "source": "NBR Import Customs Data"
     }
   ]
 }

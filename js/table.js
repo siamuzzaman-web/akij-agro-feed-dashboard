@@ -17,6 +17,7 @@ const COLUMNS = [
   { key: "bestBuyCountry", label: "Best Buy Origin", sortable: true },
   { key: "riskSignal", label: "Risk Signal", sortable: true, badge: true },
   { key: "procurementAction", label: "Recommendation", sortable: true },
+  { key: "source", label: "Source", sortable: true, fmt: (v) => v || "-" },
 ];
 
 export function renderTableToolbar(container) {
