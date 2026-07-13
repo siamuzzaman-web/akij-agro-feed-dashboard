@@ -1,24 +1,24 @@
 {
   "insights": [
     {
-      "title": "Mixed price action, six items on alert",
-      "text": "6 of 15 tracked materials moved more than \u00b13% week-on-week, with the portfolio averaging -1.7% WoW; Rapeseed Extraction (RSM) and DDGS drove the largest swings in opposite directions."
+      "title": "Mixed price action, five items on alert",
+      "text": "5 of 18 tracked materials moved more than ±3% week-on-week, with the portfolio averaging -0.5% WoW; Rapeseed Extraction (RSM) and DDGS drove the largest swings in opposite directions."
     },
     {
-      "title": "Rapeseed Extraction spikes on tight supply",
-      "text": "Rapeseed Extraction (RSM) jumped 50.5% week-on-week to $406/MT, the sharpest rise in the portfolio, while DDGS fell 43.8% WoW to $162/MT, the biggest drop."
+      "title": "Rapeseed Extraction spikes as DDGS and Corn Gluten Feed ease",
+      "text": "Rapeseed Extraction (RSM) jumped 83.4% week-on-week to $495/MT, the sharpest rise in the portfolio, while DDGS fell 38.0% WoW to $179/MT and Corn Gluten Feed fell 36.6% WoW to $139/MT."
     },
     {
       "title": "China sourcing concentration remains high",
-      "text": "L-Methionine, Calcium Phosphate, L-Lysine, PH Raw Materials, L-Threonine, Amino Acid (Feed) and Feed Additive are all sourced primarily from China, with L-Lysine carrying a 48.96% cost premium versus India-origin alternatives."
+      "text": "L-Methionine, Calcium Phosphate, PH Raw Materials, L-Lysine, L-Threonine, Amino Acid (Feed) and Feed Additive are all sourced primarily from China, with L-Lysine carrying a 48.96% cost premium versus India-origin alternatives."
     },
     {
-      "title": "Five materials flagged high cost or under review",
-      "text": "Maize/Corn, Soyabean/SBM, Calcium Phosphate, L-Lysine and Limestone Powder all carry a HIGH COST signal versus alternative origins, while Animal Feed has no confirmed Akij sourcing country on file and needs supplier review."
+      "title": "Eleven materials flagged for review or high cost",
+      "text": "Maize/Corn, Soyabean Meal, Soyabean, Animal Feed, Wheat Bran, DDGS, Corn Gluten Feed and Rapeseed Extraction (RSM) all carry a Review signal, while Calcium Phosphate, L-Lysine and Limestone Powder show a confirmed High Cost gap versus alternative origins."
     },
     {
-      "title": "Rapeseed Extraction is the standout Strong Buy",
-      "text": "Rapeseed Extraction (RSM) is the only Strong Buy signal this cycle, sourced optimally from India at $264/MT with no cost gap versus the best available origin."
+      "title": "Two new materials added with sourcing still unconfirmed",
+      "text": "Corn Gluten Meal and Sunflower Meal are newly tracked this cycle with no confirmed Akij sourcing country on file yet; both are flagged Monitor pending a supplier decision."
     }
   ]
 }

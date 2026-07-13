@@ -4,26 +4,37 @@
       "productId": "MAT-001",
       "product": "MAIZE/CORN",
       "akijSourcingCountry": "Brazil",
-      "akijQuotedPrice": 245.0,
-      "bestBuyCountry": "United States",
-      "bestBuyPrice": 199.0,
-      "costGapPct": 0.2312,
-      "riskSignal": "HIGH_COST",
-      "procurementAction": "Diversify Source"
+      "akijQuotedPrice": 114.0,
+      "bestBuyCountry": "United States (U.S. Gulf Barge)",
+      "bestBuyPrice": 104.0,
+      "costGapPct": 0.0962,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
     },
     {
       "productId": "MAT-002",
-      "product": "SOYABEAN/SBM",
+      "product": "SOYABEAN MEAL",
       "akijSourcingCountry": "Brazil",
-      "akijQuotedPrice": 404.0,
-      "bestBuyCountry": "Argentina",
-      "bestBuyPrice": 370.0,
-      "costGapPct": 0.0919,
-      "riskSignal": "HIGH_COST",
-      "procurementAction": "Diversify Source"
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "United States-lowa",
+      "bestBuyPrice": 308.0,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
     },
     {
       "productId": "MAT-003",
+      "product": "SOYABEAN",
+      "akijSourcingCountry": "Brazil",
+      "akijQuotedPrice": 346.0,
+      "bestBuyCountry": "United States-Pacific Northwest (Washington)",
+      "bestBuyPrice": 143.95,
+      "costGapPct": 1.4036,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
+    },
+    {
+      "productId": "MAT-004",
       "product": "ANIMAL FEED",
       "akijSourcingCountry": "-",
       "akijQuotedPrice": null,
@@ -34,29 +45,29 @@
       "procurementAction": "Review Supplier"
     },
     {
-      "productId": "MAT-004",
+      "productId": "MAT-005",
       "product": "WHEAT BRAN",
       "akijSourcingCountry": "Nigeria",
-      "akijQuotedPrice": 192.0,
-      "bestBuyCountry": "Nigeria",
-      "bestBuyPrice": 192.0,
-      "costGapPct": 0.0,
-      "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
-    },
-    {
-      "productId": "MAT-005",
-      "product": "DDGS",
-      "akijSourcingCountry": "India",
-      "akijQuotedPrice": 242.0,
-      "bestBuyCountry": "India",
-      "bestBuyPrice": 242.0,
-      "costGapPct": 0.0,
-      "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "Russia (Port of Azov)",
+      "bestBuyPrice": 215.3,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
     },
     {
       "productId": "MAT-006",
+      "product": "DDGS",
+      "akijSourcingCountry": "Nigeria",
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "United States- lowa",
+      "bestBuyPrice": 171.07,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
+    },
+    {
+      "productId": "MAT-007",
       "product": "L-METHIONINE",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 2244.0,
@@ -67,7 +78,7 @@
       "procurementAction": "Hold"
     },
     {
-      "productId": "MAT-007",
+      "productId": "MAT-008",
       "product": "CALCIUM PHOSPHATE",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 810.0,
@@ -78,18 +89,18 @@
       "procurementAction": "Diversify Source"
     },
     {
-      "productId": "MAT-008",
+      "productId": "MAT-009",
       "product": "CORN GLUTEN FEED",
       "akijSourcingCountry": "India",
-      "akijQuotedPrice": 283.0,
-      "bestBuyCountry": "India",
-      "bestBuyPrice": 283.0,
-      "costGapPct": 0.0,
-      "riskSignal": "OPTIMAL",
-      "procurementAction": "Monitor"
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "United States of America",
+      "bestBuyPrice": 115.0,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
     },
     {
-      "productId": "MAT-009",
+      "productId": "MAT-010",
       "product": "PH RAW MATERIALS",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 1584.0,
@@ -100,7 +111,7 @@
       "procurementAction": "Hold"
     },
     {
-      "productId": "MAT-010",
+      "productId": "MAT-011",
       "product": "L-LYSINE",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 998.0,
@@ -111,18 +122,40 @@
       "procurementAction": "Diversify Source"
     },
     {
-      "productId": "MAT-011",
+      "productId": "MAT-012",
       "product": "RAPESEED EXTRACTION (RSM)",
       "akijSourcingCountry": "India",
-      "akijQuotedPrice": 264.0,
-      "bestBuyCountry": "India",
-      "bestBuyPrice": 264.0,
-      "costGapPct": 0.0,
-      "riskSignal": "OPTIMAL",
-      "procurementAction": "Strong Buy"
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "United States of America",
+      "bestBuyPrice": 252.975,
+      "costGapPct": null,
+      "riskSignal": "REVIEW",
+      "procurementAction": "Review Supplier"
     },
     {
-      "productId": "MAT-012",
+      "productId": "MAT-013",
+      "product": "CORN GLUTEN MEAL",
+      "akijSourcingCountry": "-",
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "United States of America (Mid west",
+      "bestBuyPrice": 482.26,
+      "costGapPct": null,
+      "riskSignal": "MONITOR",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-014",
+      "product": "SUNFLOWER MEAL",
+      "akijSourcingCountry": "-",
+      "akijQuotedPrice": null,
+      "bestBuyCountry": "Ukrain",
+      "bestBuyPrice": 238.6,
+      "costGapPct": null,
+      "riskSignal": "MONITOR",
+      "procurementAction": "Monitor"
+    },
+    {
+      "productId": "MAT-015",
       "product": "L-THREONINE",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 1194.0,
@@ -133,7 +166,7 @@
       "procurementAction": "Hold"
     },
     {
-      "productId": "MAT-013",
+      "productId": "MAT-016",
       "product": "AMINO ACID (FEED)",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 1214.0,
@@ -144,7 +177,7 @@
       "procurementAction": "Hold"
     },
     {
-      "productId": "MAT-014",
+      "productId": "MAT-017",
       "product": "FEED ADDITIVE",
       "akijSourcingCountry": "China",
       "akijQuotedPrice": 651.0,
@@ -155,7 +188,7 @@
       "procurementAction": "Hold"
     },
     {
-      "productId": "MAT-015",
+      "productId": "MAT-018",
       "product": "LIMESTONE POWDER",
       "akijSourcingCountry": "Egypt",
       "akijQuotedPrice": 56.0,

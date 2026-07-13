@@ -17,72 +17,41 @@
       ]
     },
     {
-      "country": "India",
-      "productsSourced": 8,
-      "rank1Count": 4,
-      "totalAppearances": 8,
-      "avgQuotedPrice": 8220.9,
+      "country": "United States of America",
+      "productsSourced": 4,
+      "rank1Count": 2,
+      "totalAppearances": 6,
+      "avgQuotedPrice": 2348.6,
       "products": [
-        "AMINO ACID (FEED)",
+        "ANIMAL FEED",
+        "CALCIUM PHOSPHATE",
         "CORN GLUTEN FEED",
-        "DDGS",
-        "FEED ADDITIVE",
-        "L-LYSINE",
-        "L-THREONINE",
-        "LIMESTONE POWDER",
         "RAPESEED EXTRACTION (RSM)"
       ]
     },
     {
-      "country": "Argentina",
-      "productsSourced": 2,
+      "country": "India",
+      "productsSourced": 5,
       "rank1Count": 1,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 310.5,
+      "totalAppearances": 5,
+      "avgQuotedPrice": 12995.6,
       "products": [
-        "MAIZE/CORN",
-        "SOYABEAN/SBM"
-      ]
-    },
-    {
-      "country": "Vietnam",
-      "productsSourced": 2,
-      "rank1Count": 1,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 180.5,
-      "products": [
-        "CORN GLUTEN FEED",
+        "AMINO ACID (FEED)",
+        "FEED ADDITIVE",
+        "L-LYSINE",
+        "L-THREONINE",
         "LIMESTONE POWDER"
       ]
     },
     {
-      "country": "United States",
-      "productsSourced": 1,
+      "country": "Ukrain",
+      "productsSourced": 2,
       "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 199.0,
+      "totalAppearances": 3,
+      "avgQuotedPrice": 2040.8,
       "products": [
-        "MAIZE/CORN"
-      ]
-    },
-    {
-      "country": "Saudi Arabia",
-      "productsSourced": 1,
-      "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 579.0,
-      "products": [
-        "ANIMAL FEED"
-      ]
-    },
-    {
-      "country": "Nigeria",
-      "productsSourced": 1,
-      "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 192.0,
-      "products": [
-        "WHEAT BRAN"
+        "RAPESEED EXTRACTION (RSM)",
+        "SUNFLOWER MEAL"
       ]
     },
     {
@@ -96,78 +65,143 @@
       ]
     },
     {
-      "country": "United States of America",
-      "productsSourced": 5,
-      "rank1Count": 0,
-      "totalAppearances": 5,
-      "avgQuotedPrice": 2966.6,
-      "products": [
-        "ANIMAL FEED",
-        "CALCIUM PHOSPHATE",
-        "CORN GLUTEN FEED",
-        "DDGS",
-        "SOYABEAN/SBM"
-      ]
-    },
-    {
-      "country": "Brazil",
-      "productsSourced": 2,
-      "rank1Count": 0,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 324.5,
-      "products": [
-        "MAIZE/CORN",
-        "SOYABEAN/SBM"
-      ]
-    },
-    {
-      "country": "Turkey",
+      "country": "Russia (Port of Azov)",
       "productsSourced": 1,
-      "rank1Count": 0,
+      "rank1Count": 1,
       "totalAppearances": 1,
-      "avgQuotedPrice": 704.0,
+      "avgQuotedPrice": 215.3,
+      "products": [
+        "WHEAT BRAN"
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 579.0,
       "products": [
         "ANIMAL FEED"
       ]
     },
     {
-      "country": "Angola",
+      "country": "United States (U.S. Gulf Barge)",
       "productsSourced": 1,
-      "rank1Count": 0,
+      "rank1Count": 1,
       "totalAppearances": 1,
-      "avgQuotedPrice": 207.0,
+      "avgQuotedPrice": 104.0,
       "products": [
-        "WHEAT BRAN"
+        "MAIZE/CORN"
       ]
     },
     {
-      "country": "Tanzania",
+      "country": "United States of America (Mid west",
       "productsSourced": 1,
-      "rank1Count": 0,
+      "rank1Count": 1,
       "totalAppearances": 1,
-      "avgQuotedPrice": 222.0,
+      "avgQuotedPrice": 482.3,
       "products": [
-        "WHEAT BRAN"
+        "CORN GLUTEN MEAL"
       ]
     },
     {
-      "country": "Indonesia",
+      "country": "United States- lowa",
       "productsSourced": 1,
-      "rank1Count": 0,
+      "rank1Count": 1,
       "totalAppearances": 1,
-      "avgQuotedPrice": 254.0,
+      "avgQuotedPrice": 171.1,
       "products": [
         "DDGS"
       ]
     },
     {
-      "country": "Japan",
+      "country": "United States-Pacific Northwest (Washington)",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 143.9,
+      "products": [
+        "SOYABEAN"
+      ]
+    },
+    {
+      "country": "United States-lowa",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 308.0,
+      "products": [
+        "SOYABEAN MEAL"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 43.0,
+      "products": [
+        "LIMESTONE POWDER"
+      ]
+    },
+    {
+      "country": "Argentina",
       "productsSourced": 1,
       "rank1Count": 0,
       "totalAppearances": 1,
-      "avgQuotedPrice": 2483.0,
+      "avgQuotedPrice": 240.5,
       "products": [
-        "L-METHIONINE"
+        "SUNFLOWER MEAL"
+      ]
+    },
+    {
+      "country": "Belgium",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 880.0,
+      "products": [
+        "FEED ADDITIVE"
+      ]
+    },
+    {
+      "country": "Brazil-Northern Arc Ports",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 114.0,
+      "products": [
+        "MAIZE/CORN"
+      ]
+    },
+    {
+      "country": "Brazil-Rondonopolis, Mato Grasso",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 346.0,
+      "products": [
+        "SOYABEAN"
+      ]
+    },
+    {
+      "country": "China-Improt Port (Brazil Origin)",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 206.0,
+      "products": [
+        "SOYABEAN"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 56.0,
+      "products": [
+        "LIMESTONE POWDER"
       ]
     },
     {
@@ -181,6 +215,16 @@
       ]
     },
     {
+      "country": "Japan",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 2483.0,
+      "products": [
+        "L-METHIONINE"
+      ]
+    },
+    {
       "country": "Malaysia",
       "productsSourced": 1,
       "rank1Count": 0,
@@ -188,6 +232,26 @@
       "avgQuotedPrice": 2525.0,
       "products": [
         "PH RAW MATERIALS"
+      ]
+    },
+    {
+      "country": "Netherlands/Belgium/Germany",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 274.4,
+      "products": [
+        "RAPESEED EXTRACTION (RSM)"
+      ]
+    },
+    {
+      "country": "Russia- Port of Azov",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 220.3,
+      "products": [
+        "WHEAT BRAN"
       ]
     },
     {
@@ -211,23 +275,93 @@
       ]
     },
     {
-      "country": "Belgium",
+      "country": "Turkey",
       "productsSourced": 1,
       "rank1Count": 0,
       "totalAppearances": 1,
-      "avgQuotedPrice": 880.0,
+      "avgQuotedPrice": 704.0,
       "products": [
-        "FEED ADDITIVE"
+        "ANIMAL FEED"
       ]
     },
     {
-      "country": "Egypt",
+      "country": "Ukrain- Danube Ports",
       "productsSourced": 1,
       "rank1Count": 0,
       "totalAppearances": 1,
-      "avgQuotedPrice": 56.0,
+      "avgQuotedPrice": 216.3,
       "products": [
-        "LIMESTONE POWDER"
+        "WHEAT BRAN"
+      ]
+    },
+    {
+      "country": "United States of America-Central Illinois",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 314.6,
+      "products": [
+        "SOYABEAN MEAL"
+      ]
+    },
+    {
+      "country": "United States of America-Chicago Illinois",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 496.0,
+      "products": [
+        "CORN GLUTEN MEAL"
+      ]
+    },
+    {
+      "country": "United States- Indiana",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 173.2,
+      "products": [
+        "DDGS"
+      ]
+    },
+    {
+      "country": "United States- Ohio",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 173.8,
+      "products": [
+        "DDGS"
+      ]
+    },
+    {
+      "country": "United States-Kansas City, Missouri",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 317.1,
+      "products": [
+        "SOYABEAN MEAL"
+      ]
+    },
+    {
+      "country": "United States-U.S. Gulf",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 106.0,
+      "products": [
+        "MAIZE/CORN"
+      ]
+    },
+    {
+      "country": "Unted States of America (Midwest)",
+      "productsSourced": 1,
+      "rank1Count": 0,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 504.4,
+      "products": [
+        "CORN GLUTEN MEAL"
       ]
     }
   ]

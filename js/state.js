@@ -33,10 +33,11 @@ const listeners = new Set();
 export function onStateChange(fn) { listeners.add(fn); }
 export function emitStateChange() { listeners.forEach((fn) => fn(AppState)); }
 
-// Category buckets — simple heuristic classification of the 15 tracked materials
+// Category buckets — simple heuristic classification of the 18 tracked materials
 const CATEGORY_MAP = {
   "MAIZE/CORN": "Grains & Cereals",
-  "SOYABEAN/SBM": "Oilseeds & Meals",
+  "SOYABEAN MEAL": "Oilseeds & Meals",
+  "SOYABEAN": "Oilseeds & Meals",
   "ANIMAL FEED": "Compound Feed",
   "WHEAT BRAN": "Grains & Cereals",
   "DDGS": "Grains & Cereals",
@@ -46,6 +47,8 @@ const CATEGORY_MAP = {
   "PH RAW MATERIALS": "Amino Acids",
   "L-LYSINE": "Amino Acids",
   "RAPESEED EXTRACTION (RSM)": "Oilseeds & Meals",
+  "CORN GLUTEN MEAL": "Grains & Cereals",
+  "SUNFLOWER MEAL": "Oilseeds & Meals",
   "L-THREONINE": "Amino Acids",
   "AMINO ACID (FEED)": "Amino Acids",
   "FEED ADDITIVE": "Additives",

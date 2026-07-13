@@ -3,23 +3,32 @@
     {
       "productId": "MAT-001",
       "product": "MAIZE/CORN",
-      "signal": "HIGH_COST",
+      "signal": "REVIEW",
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "MAIZE/CORN sourced from Brazil costs meaningfully more than the best available origin (United States)."
+      "description": "MAIZE/CORN sourced from Brazil needs supplier review amid unclear pricing signals."
     },
     {
       "productId": "MAT-002",
-      "product": "SOYABEAN/SBM",
-      "signal": "HIGH_COST",
+      "product": "SOYABEAN MEAL",
+      "signal": "REVIEW",
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "SOYABEAN/SBM sourced from Brazil costs meaningfully more than the best available origin (Argentina)."
+      "description": "SOYABEAN MEAL sourced from Brazil needs supplier review amid unclear pricing signals."
     },
     {
       "productId": "MAT-003",
+      "product": "SOYABEAN",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "SOYABEAN sourced from Brazil needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-004",
       "product": "ANIMAL FEED",
       "signal": "REVIEW",
       "label": "RISK",
@@ -28,25 +37,25 @@
       "description": "ANIMAL FEED has no confirmed Akij sourcing country on file; supplier base needs review."
     },
     {
-      "productId": "MAT-004",
-      "product": "WHEAT BRAN",
-      "signal": "OPTIMAL",
-      "label": "GO",
-      "color": "success",
-      "icon": "check-circle",
-      "description": "WHEAT BRAN sourcing from Nigeria is aligned with the best available market price."
-    },
-    {
       "productId": "MAT-005",
-      "product": "DDGS",
-      "signal": "OPTIMAL",
-      "label": "GO",
-      "color": "success",
-      "icon": "check-circle",
-      "description": "DDGS sourcing from India is aligned with the best available market price."
+      "product": "WHEAT BRAN",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT BRAN sourced from Nigeria needs supplier review amid unclear pricing signals."
     },
     {
       "productId": "MAT-006",
+      "product": "DDGS",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "DDGS sourced from Nigeria needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-007",
       "product": "L-METHIONINE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -55,7 +64,7 @@
       "description": "L-METHIONINE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-007",
+      "productId": "MAT-008",
       "product": "CALCIUM PHOSPHATE",
       "signal": "HIGH_COST",
       "label": "RISK",
@@ -64,16 +73,16 @@
       "description": "CALCIUM PHOSPHATE sourced from China costs meaningfully more than the best available origin (Morocco)."
     },
     {
-      "productId": "MAT-008",
+      "productId": "MAT-009",
       "product": "CORN GLUTEN FEED",
-      "signal": "OPTIMAL",
-      "label": "GO",
-      "color": "success",
-      "icon": "check-circle",
-      "description": "CORN GLUTEN FEED sourcing from India is aligned with the best available market price."
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "CORN GLUTEN FEED sourced from India needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-009",
+      "productId": "MAT-010",
       "product": "PH RAW MATERIALS",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -82,7 +91,7 @@
       "description": "PH RAW MATERIALS sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-010",
+      "productId": "MAT-011",
       "product": "L-LYSINE",
       "signal": "HIGH_COST",
       "label": "RISK",
@@ -91,16 +100,34 @@
       "description": "L-LYSINE sourced from China costs meaningfully more than the best available origin (India)."
     },
     {
-      "productId": "MAT-011",
+      "productId": "MAT-012",
       "product": "RAPESEED EXTRACTION (RSM)",
-      "signal": "OPTIMAL",
-      "label": "GO",
-      "color": "success",
-      "icon": "check-circle",
-      "description": "RAPESEED EXTRACTION (RSM) sourcing from India is aligned with the best available market price."
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "RAPESEED EXTRACTION (RSM) sourced from India needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-012",
+      "productId": "MAT-013",
+      "product": "CORN GLUTEN MEAL",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN GLUTEN MEAL has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-014",
+      "product": "SUNFLOWER MEAL",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SUNFLOWER MEAL has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-015",
       "product": "L-THREONINE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -109,7 +136,7 @@
       "description": "L-THREONINE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-013",
+      "productId": "MAT-016",
       "product": "AMINO ACID (FEED)",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -118,7 +145,7 @@
       "description": "AMINO ACID (FEED) sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-014",
+      "productId": "MAT-017",
       "product": "FEED ADDITIVE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -127,7 +154,7 @@
       "description": "FEED ADDITIVE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-015",
+      "productId": "MAT-018",
       "product": "LIMESTONE POWDER",
       "signal": "HIGH_COST",
       "label": "RISK",
