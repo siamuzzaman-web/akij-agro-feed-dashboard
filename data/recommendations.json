@@ -3,95 +3,305 @@
     {
       "productId": "MAT-001",
       "product": "MAIZE/CORN",
-      "action": "Review Supplier",
+      "action": "Strong Buy",
       "priority": "high",
-      "color": "danger",
-      "riskSignal": "REVIEW",
-      "wowPct": -0.040334928229665105,
-      "forecastDeltaPct": 0.11681707134666205
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.0436994101,
+      "forecastDeltaPct": 0.08271391783
     },
     {
       "productId": "MAT-002",
-      "product": "SOYABEAN MEAL",
-      "action": "Review Supplier",
-      "priority": "high",
-      "color": "danger",
-      "riskSignal": "REVIEW",
-      "wowPct": -0.001373493975903598,
-      "forecastDeltaPct": -0.008276427864778146
+      "product": "CORN FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.2563063444,
+      "forecastDeltaPct": 1.228752747
     },
     {
       "productId": "MAT-003",
-      "product": "SOYABEAN",
+      "product": "CORN CIF",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.3684692143,
+      "forecastDeltaPct": 0.2985715748
+    },
+    {
+      "productId": "MAT-004",
+      "product": "CORN BASIS",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.01164895833,
+      "forecastDeltaPct": 0.595972368
+    },
+    {
+      "productId": "MAT-005",
+      "product": "CORN FAS",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0436994101,
+      "forecastDeltaPct": 0.3784331377
+    },
+    {
+      "productId": "MAT-006",
+      "product": "CORN CPT",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.03139013453,
+      "forecastDeltaPct": 0.25
+    },
+    {
+      "productId": "MAT-007",
+      "product": "Corn DDG CIF",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.6044776119
+    },
+    {
+      "productId": "MAT-008",
+      "product": "Corn DDG FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.07172995781
+    },
+    {
+      "productId": "MAT-009",
+      "product": "SOYMEAL CIF",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.04373036965,
+      "forecastDeltaPct": -0.03472222222
+    },
+    {
+      "productId": "MAT-010",
+      "product": "SOYMEAL HI PRO",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.09014826795,
+      "forecastDeltaPct": 0.1777501554
+    },
+    {
+      "productId": "MAT-011",
+      "product": "SOYMEAL FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.02483773858,
+      "forecastDeltaPct": 0.01180013311
+    },
+    {
+      "productId": "MAT-012",
+      "product": "SOYMEAL CBOT",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.06944608611,
+      "forecastDeltaPct": -0.0557929021
+    },
+    {
+      "productId": "MAT-013",
+      "product": "SOYMEAL BASIS",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.03151701456,
+      "forecastDeltaPct": 0.08532423208
+    },
+    {
+      "productId": "MAT-014",
+      "product": "SOYBEAN ORGANIC FEED",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.1102068262,
+      "forecastDeltaPct": -0.396742671
+    },
+    {
+      "productId": "MAT-015",
+      "product": "SOYBEAN BASIS",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": 0.0078126832930577,
-      "forecastDeltaPct": -0.003631623056150485
+      "wowPct": -0.02496508055,
+      "forecastDeltaPct": 0.5543076526
     },
     {
-      "productId": "MAT-004",
+      "productId": "MAT-016",
+      "product": "Soybean CBOT",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.1637690826,
+      "forecastDeltaPct": -0.03445641397
+    },
+    {
+      "productId": "MAT-017",
+      "product": "Soybean CFR",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.3355789788,
+      "forecastDeltaPct": -0.03210795719
+    },
+    {
+      "productId": "MAT-018",
+      "product": "Soybean CIF",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.01815127123,
+      "forecastDeltaPct": -0.02663185379
+    },
+    {
+      "productId": "MAT-019",
+      "product": "Soybean FAS",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.123429416,
+      "forecastDeltaPct": -0.02951441312
+    },
+    {
+      "productId": "MAT-020",
+      "product": "Soybean Feed",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.009293680297,
+      "forecastDeltaPct": -0.02626641651
+    },
+    {
+      "productId": "MAT-021",
+      "product": "Soybean FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.0986068997,
+      "forecastDeltaPct": -0.02778925004
+    },
+    {
+      "productId": "MAT-022",
+      "product": "Palm oil Refined bleached deodorised (RBD)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.2037952894,
+      "forecastDeltaPct": 0.05309734513
+    },
+    {
+      "productId": "MAT-023",
+      "product": "Palm Fatty Acid",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.01796407186,
+      "forecastDeltaPct": 0.01756097561
+    },
+    {
+      "productId": "MAT-024",
+      "product": "Palm Oil Crude",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": null,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-025",
       "product": "ANIMAL FEED",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": 0.0,
-      "forecastDeltaPct": -0.09700427960057062
+      "wowPct": -0.1262135922,
+      "forecastDeltaPct": 1.073333333
     },
     {
-      "productId": "MAT-005",
+      "productId": "MAT-026",
       "product": "WHEAT BRAN",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": -0.13737762237762235,
-      "forecastDeltaPct": -0.010984556767054468
+      "wowPct": 0.05756034552,
+      "forecastDeltaPct": -0.04961832061
     },
     {
-      "productId": "MAT-006",
+      "productId": "MAT-027",
       "product": "DDGS",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": -0.37951388888888893,
-      "forecastDeltaPct": 0.3766088416340236
+      "wowPct": -0.04832548101,
+      "forecastDeltaPct": 0.542214493
     },
     {
-      "productId": "MAT-007",
+      "productId": "MAT-028",
       "product": "L-METHIONINE",
-      "action": "Hold",
-      "priority": "low",
-      "color": "neutral",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
       "riskSignal": "OPTIMAL",
-      "wowPct": 0.0,
-      "forecastDeltaPct": 0.050020333468889795
+      "wowPct": 0.09800732005,
+      "forecastDeltaPct": -0.008888888889
     },
     {
-      "productId": "MAT-008",
+      "productId": "MAT-029",
       "product": "CALCIUM PHOSPHATE",
       "action": "Diversify Source",
       "priority": "high",
       "color": "danger",
       "riskSignal": "HIGH_COST",
       "wowPct": 0.0,
-      "forecastDeltaPct": -0.22984441301272984
+      "forecastDeltaPct": -0.229844413
     },
     {
-      "productId": "MAT-009",
+      "productId": "MAT-030",
       "product": "CORN GLUTEN FEED",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": -0.36598173515981736,
-      "forecastDeltaPct": 1.398271516024487
+      "wowPct": -0.08703086064,
+      "forecastDeltaPct": 1.58744938
     },
     {
-      "productId": "MAT-010",
+      "productId": "MAT-031",
       "product": "PH RAW MATERIALS",
       "action": "Hold",
       "priority": "low",
@@ -101,47 +311,157 @@
       "forecastDeltaPct": null
     },
     {
-      "productId": "MAT-011",
+      "productId": "MAT-032",
       "product": "L-LYSINE",
-      "action": "Diversify Source",
-      "priority": "high",
-      "color": "danger",
-      "riskSignal": "HIGH_COST",
-      "wowPct": 0.0,
-      "forecastDeltaPct": -0.06470588235294118
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.008403361345,
+      "forecastDeltaPct": -0.06916666667
     },
     {
-      "productId": "MAT-012",
+      "productId": "MAT-033",
       "product": "RAPESEED EXTRACTION (RSM)",
       "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
       "riskSignal": "REVIEW",
-      "wowPct": 0.8335185185185185,
-      "forecastDeltaPct": -0.2566407433592567
+      "wowPct": -0.4399659108,
+      "forecastDeltaPct": 0.01476538648
     },
     {
-      "productId": "MAT-013",
+      "productId": "MAT-034",
+      "product": "WHEAT CBOT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.01900763359,
+      "forecastDeltaPct": 0.03104816746
+    },
+    {
+      "productId": "MAT-035",
+      "product": "WHEAT 10%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.05756034552,
+      "forecastDeltaPct": 0.01526717557
+    },
+    {
+      "productId": "MAT-036",
+      "product": "WHEAT CBOT 10.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.2109685617,
+      "forecastDeltaPct": 0.0961038961
+    },
+    {
+      "productId": "MAT-037",
+      "product": "WHEAT CBOT 11.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.1717049321,
+      "forecastDeltaPct": 0.09462915601
+    },
+    {
+      "productId": "MAT-038",
+      "product": "WHEAT CBOT 12.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.01869761444,
+      "forecastDeltaPct": 0.08860759494
+    },
+    {
+      "productId": "MAT-039",
+      "product": "WHEAT AND WHEAT BRAN CBOT 13.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.1948827636,
+      "forecastDeltaPct": 0.09273182957
+    },
+    {
+      "productId": "MAT-040",
+      "product": "WHEAT CBOT 14.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.1981954659,
+      "forecastDeltaPct": 0.08747044917
+    },
+    {
+      "productId": "MAT-041",
+      "product": "WHEAT FEED",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.3341530895,
+      "forecastDeltaPct": 0.04147465438
+    },
+    {
+      "productId": "MAT-042",
+      "product": "BERLEY",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.1335846954,
+      "forecastDeltaPct": 0.09547738693
+    },
+    {
+      "productId": "MAT-043",
+      "product": "COTTON SEED OIL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.12,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-044",
       "product": "CORN GLUTEN MEAL",
       "action": "Monitor",
       "priority": "medium",
       "color": "warning",
       "riskSignal": "MONITOR",
-      "wowPct": 0.004288887186949547,
-      "forecastDeltaPct": -0.008617402577594718
+      "wowPct": -0.09632858614,
+      "forecastDeltaPct": 0.05908573938
     },
     {
-      "productId": "MAT-014",
+      "productId": "MAT-045",
       "product": "SUNFLOWER MEAL",
       "action": "Monitor",
       "priority": "medium",
       "color": "warning",
       "riskSignal": "MONITOR",
-      "wowPct": 0.0,
-      "forecastDeltaPct": -0.01413445689291758
+      "wowPct": -0.4646883929,
+      "forecastDeltaPct": 0.5375
     },
     {
-      "productId": "MAT-015",
+      "productId": "MAT-046",
+      "product": "Fish Oil",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": null,
+      "forecastDeltaPct": -0.5714239322
+    },
+    {
+      "productId": "MAT-047",
       "product": "L-THREONINE",
       "action": "Hold",
       "priority": "low",
@@ -151,7 +471,7 @@
       "forecastDeltaPct": null
     },
     {
-      "productId": "MAT-016",
+      "productId": "MAT-048",
       "product": "AMINO ACID (FEED)",
       "action": "Hold",
       "priority": "low",
@@ -161,24 +481,24 @@
       "forecastDeltaPct": null
     },
     {
-      "productId": "MAT-017",
+      "productId": "MAT-049",
       "product": "FEED ADDITIVE",
       "action": "Hold",
       "priority": "low",
       "color": "neutral",
       "riskSignal": "OPTIMAL",
       "wowPct": 0.0,
-      "forecastDeltaPct": 0.3853211009174312
+      "forecastDeltaPct": 0.3853211009
     },
     {
-      "productId": "MAT-018",
+      "productId": "MAT-050",
       "product": "LIMESTONE POWDER",
-      "action": "Diversify Source",
+      "action": "Review Supplier",
       "priority": "high",
       "color": "danger",
-      "riskSignal": "HIGH_COST",
-      "wowPct": 0.0,
-      "forecastDeltaPct": -0.01639344262295082
+      "riskSignal": "REVIEW",
+      "wowPct": -0.4262295082,
+      "forecastDeltaPct": 0.4571428571
     }
   ]
 }

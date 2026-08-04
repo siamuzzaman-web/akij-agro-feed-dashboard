@@ -1,24 +1,24 @@
 {
   "insights": [
     {
-      "title": "Mixed price action, five items on alert",
-      "text": "5 of 18 tracked materials moved more than ±3% week-on-week, with the portfolio averaging -0.5% WoW; Rapeseed Extraction (RSM) and DDGS drove the largest swings in opposite directions."
+      "title": "Portfolio expands to 50 tracked materials, prices broadly softening",
+      "text": "The tracked universe expands to 50 raw materials this cycle, adding granular price points across corn, soybean, wheat, and palm oil trade terms; the portfolio-wide average move is -5.8% week-on-week."
     },
     {
-      "title": "Rapeseed Extraction spikes as DDGS and Corn Gluten Feed ease",
-      "text": "Rapeseed Extraction (RSM) jumped 83.4% week-on-week to $495/MT, the sharpest rise in the portfolio, while DDGS fell 38.0% WoW to $179/MT and Corn Gluten Feed fell 36.6% WoW to $139/MT."
+      "title": "Sharp swings in soybean and sunflower meal pricing",
+      "text": "Soybean CFR posted the steepest weekly gain at +33.6%, while Sunflower Meal fell 46.5% WoW; 18 of 50 materials moved more than ±10% week-on-week, underscoring elevated short-term volatility."
     },
     {
-      "title": "China sourcing concentration remains high",
-      "text": "L-Methionine, Calcium Phosphate, PH Raw Materials, L-Lysine, L-Threonine, Amino Acid (Feed) and Feed Additive are all sourced primarily from China, with L-Lysine carrying a 48.96% cost premium versus India-origin alternatives."
+      "title": "Limestone Powder cheapest, Fish Oil most expensive",
+      "text": "Limestone Powder remains the lowest-priced tracked material at $35/MT, while Fish Oil is now the most expensive at roughly $3,638/MT."
     },
     {
-      "title": "Eleven materials flagged for review or high cost",
-      "text": "Maize/Corn, Soyabean Meal, Soyabean, Animal Feed, Wheat Bran, DDGS, Corn Gluten Feed and Rapeseed Extraction (RSM) all carry a Review signal, while Calcium Phosphate, L-Lysine and Limestone Powder show a confirmed High Cost gap versus alternative origins."
+      "title": "Calcium Phosphate flagged as the highest cost-risk item",
+      "text": "Calcium Phosphate carries the only confirmed High Cost signal in the portfolio, with Akij's China sourcing priced well above the Morocco benchmark; 15 additional materials are flagged for supplier review."
     },
     {
-      "title": "Two new materials added with sourcing still unconfirmed",
-      "text": "Corn Gluten Meal and Sunflower Meal are newly tracked this cycle with no confirmed Akij sourcing country on file yet; both are flagged Monitor pending a supplier decision."
+      "title": "China and India dominate specialty and wheat sourcing",
+      "text": "China remains the primary source for amino acids and mineral additives (L-Methionine, Calcium Phosphate, PH Raw Materials, L-Lysine, L-Threonine, Amino Acid Feed, Feed Additive), while India has become the default sourcing origin across the newly expanded wheat and RSM lines."
     }
   ]
 }

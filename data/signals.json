@@ -3,32 +3,221 @@
     {
       "productId": "MAT-001",
       "product": "MAIZE/CORN",
-      "signal": "REVIEW",
-      "label": "RISK",
-      "color": "danger",
-      "icon": "alert-triangle",
-      "description": "MAIZE/CORN sourced from Brazil needs supplier review amid unclear pricing signals."
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "MAIZE/CORN sourcing from Brazil is aligned with the best available market price."
     },
     {
       "productId": "MAT-002",
-      "product": "SOYABEAN MEAL",
-      "signal": "REVIEW",
-      "label": "RISK",
-      "color": "danger",
-      "icon": "alert-triangle",
-      "description": "SOYABEAN MEAL sourced from Brazil needs supplier review amid unclear pricing signals."
+      "product": "CORN FOB",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN FOB has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
     },
     {
       "productId": "MAT-003",
-      "product": "SOYABEAN",
+      "product": "CORN CIF",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN CIF has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-004",
+      "product": "CORN BASIS",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN BASIS has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-005",
+      "product": "CORN FAS",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN FAS has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-006",
+      "product": "CORN CPT",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "CORN CPT has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-007",
+      "product": "Corn DDG CIF",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Corn DDG CIF has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-008",
+      "product": "Corn DDG FOB",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Corn DDG FOB has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-009",
+      "product": "SOYMEAL CIF",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "SOYMEAL CIF sourcing from Brazil is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-010",
+      "product": "SOYMEAL HI PRO",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SOYMEAL HI PRO has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-011",
+      "product": "SOYMEAL FOB",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SOYMEAL FOB has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-012",
+      "product": "SOYMEAL CBOT",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SOYMEAL CBOT has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-013",
+      "product": "SOYMEAL BASIS",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SOYMEAL BASIS has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-014",
+      "product": "SOYBEAN ORGANIC FEED",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "SOYBEAN ORGANIC FEED has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-015",
+      "product": "SOYBEAN BASIS",
       "signal": "REVIEW",
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "SOYABEAN sourced from Brazil needs supplier review amid unclear pricing signals."
+      "description": "SOYBEAN BASIS sourced from Brazil needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-004",
+      "productId": "MAT-016",
+      "product": "Soybean CBOT",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean CBOT has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-017",
+      "product": "Soybean CFR",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean CFR has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-018",
+      "product": "Soybean CIF",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean CIF has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-019",
+      "product": "Soybean FAS",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean FAS has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-020",
+      "product": "Soybean Feed",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean Feed has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-021",
+      "product": "Soybean FOB",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Soybean FOB has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-022",
+      "product": "Palm oil Refined bleached deodorised (RBD)",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Palm oil Refined bleached deodorised (RBD) has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-023",
+      "product": "Palm Fatty Acid",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Palm Fatty Acid has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-024",
+      "product": "Palm Oil Crude",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Palm Oil Crude has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-025",
       "product": "ANIMAL FEED",
       "signal": "REVIEW",
       "label": "RISK",
@@ -37,7 +226,7 @@
       "description": "ANIMAL FEED has no confirmed Akij sourcing country on file; supplier base needs review."
     },
     {
-      "productId": "MAT-005",
+      "productId": "MAT-026",
       "product": "WHEAT BRAN",
       "signal": "REVIEW",
       "label": "RISK",
@@ -46,7 +235,7 @@
       "description": "WHEAT BRAN sourced from Nigeria needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-006",
+      "productId": "MAT-027",
       "product": "DDGS",
       "signal": "REVIEW",
       "label": "RISK",
@@ -55,7 +244,7 @@
       "description": "DDGS sourced from Nigeria needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-007",
+      "productId": "MAT-028",
       "product": "L-METHIONINE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -64,7 +253,7 @@
       "description": "L-METHIONINE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-008",
+      "productId": "MAT-029",
       "product": "CALCIUM PHOSPHATE",
       "signal": "HIGH_COST",
       "label": "RISK",
@@ -73,7 +262,7 @@
       "description": "CALCIUM PHOSPHATE sourced from China costs meaningfully more than the best available origin (Morocco)."
     },
     {
-      "productId": "MAT-009",
+      "productId": "MAT-030",
       "product": "CORN GLUTEN FEED",
       "signal": "REVIEW",
       "label": "RISK",
@@ -82,7 +271,7 @@
       "description": "CORN GLUTEN FEED sourced from India needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-010",
+      "productId": "MAT-031",
       "product": "PH RAW MATERIALS",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -91,16 +280,16 @@
       "description": "PH RAW MATERIALS sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-011",
+      "productId": "MAT-032",
       "product": "L-LYSINE",
-      "signal": "HIGH_COST",
-      "label": "RISK",
-      "color": "danger",
-      "icon": "alert-triangle",
-      "description": "L-LYSINE sourced from China costs meaningfully more than the best available origin (India)."
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "L-LYSINE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-012",
+      "productId": "MAT-033",
       "product": "RAPESEED EXTRACTION (RSM)",
       "signal": "REVIEW",
       "label": "RISK",
@@ -109,7 +298,97 @@
       "description": "RAPESEED EXTRACTION (RSM) sourced from India needs supplier review amid unclear pricing signals."
     },
     {
-      "productId": "MAT-013",
+      "productId": "MAT-034",
+      "product": "WHEAT CBOT",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT CBOT sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-035",
+      "product": "WHEAT 10%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT 10% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-036",
+      "product": "WHEAT CBOT 10.5%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT CBOT 10.5% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-037",
+      "product": "WHEAT CBOT 11.5%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT CBOT 11.5% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-038",
+      "product": "WHEAT CBOT 12.5%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT CBOT 12.5% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-039",
+      "product": "WHEAT AND WHEAT BRAN CBOT 13.5%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT AND WHEAT BRAN CBOT 13.5% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-040",
+      "product": "WHEAT CBOT 14.5%",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT CBOT 14.5% sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-041",
+      "product": "WHEAT FEED",
+      "signal": "REVIEW",
+      "label": "RISK",
+      "color": "danger",
+      "icon": "alert-triangle",
+      "description": "WHEAT FEED sourced from India needs supplier review amid unclear pricing signals."
+    },
+    {
+      "productId": "MAT-042",
+      "product": "BERLEY",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "BERLEY has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-043",
+      "product": "COTTON SEED OIL",
+      "signal": "OPTIMAL",
+      "label": "GO",
+      "color": "success",
+      "icon": "check-circle",
+      "description": "COTTON SEED OIL sourcing from United States of America is aligned with the best available market price."
+    },
+    {
+      "productId": "MAT-044",
       "product": "CORN GLUTEN MEAL",
       "signal": "MONITOR",
       "label": "MONITOR",
@@ -118,7 +397,7 @@
       "description": "CORN GLUTEN MEAL has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
     },
     {
-      "productId": "MAT-014",
+      "productId": "MAT-045",
       "product": "SUNFLOWER MEAL",
       "signal": "MONITOR",
       "label": "MONITOR",
@@ -127,7 +406,16 @@
       "description": "SUNFLOWER MEAL has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
     },
     {
-      "productId": "MAT-015",
+      "productId": "MAT-046",
+      "product": "Fish Oil",
+      "signal": "MONITOR",
+      "label": "MONITOR",
+      "color": "warning",
+      "icon": "alert-circle",
+      "description": "Fish Oil has no confirmed Akij sourcing country on file yet; price trend should be monitored before committing to an origin."
+    },
+    {
+      "productId": "MAT-047",
       "product": "L-THREONINE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -136,7 +424,7 @@
       "description": "L-THREONINE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-016",
+      "productId": "MAT-048",
       "product": "AMINO ACID (FEED)",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -145,7 +433,7 @@
       "description": "AMINO ACID (FEED) sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-017",
+      "productId": "MAT-049",
       "product": "FEED ADDITIVE",
       "signal": "OPTIMAL",
       "label": "GO",
@@ -154,13 +442,13 @@
       "description": "FEED ADDITIVE sourcing from China is aligned with the best available market price."
     },
     {
-      "productId": "MAT-018",
+      "productId": "MAT-050",
       "product": "LIMESTONE POWDER",
-      "signal": "HIGH_COST",
+      "signal": "REVIEW",
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "LIMESTONE POWDER sourced from Egypt costs meaningfully more than the best available origin (Vietnam)."
+      "description": "LIMESTONE POWDER sourced from Egypt needs supplier review amid unclear pricing signals."
     }
   ]
 }

@@ -32,7 +32,7 @@ export function initFilters(onChange) {
     ${selectField("dependency", "Dependency", ["all", "single", "multi"], depLabelMap)}
     ${selectField("year", "Year", ["all", "2024", "2025", "2026"])}
     ${selectField("quarter", "Quarter", ["all", "Q1", "Q2", "Q3", "Q4"])}
-    ${selectField("month", "Month", ["all", ...["Jul25","Aug25","Sep25","Oct25","Nov25","Dec25","Jan26","Feb26","Mar26","Apr26","May26","Jun26"]])}
+    ${selectField("month", "Month", ["all", ...["Sep25","Oct25","Nov25","Dec25","Jan26","Feb26","Mar26","Apr26","May26","Jun26","Jul26","Aug26"]])}
     ${selectField("currency", "Currency", ["USD"])}
     <div class="filter-field range-field">
       <label>Price Range (USD/MT)</label>
